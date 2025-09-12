@@ -36,7 +36,7 @@ body {
 ========================================================= */
 header {
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 0 .75rem;
 }
 header h1 {
   margin: 0;
@@ -45,7 +45,7 @@ header h1 {
   font-weight: 600;
 }
 header p {
-  margin: .5rem 0 0;
+  margin: .1rem 0 0;
   color: var(--muted);
 }
 
@@ -57,7 +57,7 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   gap: .5rem;
-  padding: .75rem;
+  padding: .25rem 0 1rem;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.05rem;
 }

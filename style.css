@@ -313,6 +313,16 @@ footer hr {
   border-top: 1px solid #444;
   margin-bottom: 10px;
 }
+footer svg {
+  vertical-align: middle;
+  margin-left: 4px;
+  width: 16px;
+  height: 16px;
+  fill: #aaa;
+}
+footer a:hover svg {
+  fill: var(--muted);
+}
 
 /* =========================================================
    Responsive Tweaks

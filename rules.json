@@ -3,8 +3,8 @@
     "title": "General",
     "rules": [
       { "title": "Be cool to each other", "desc": "we’re here to have fun, so keep the chat friendly and respectful." },
-      { "title": "Don’t mess with other people’s stuff", "desc": "builds and chests aren’t yours unless you’ve got permission." },
-      { "title": "PvP is by agreement only", "desc": "no surprise attacks." }
+      { "title": "Respect other people’s property", "desc": "don’t touch builds or chests without permission." },
+      { "title": "PvP is by agreement only", "desc": "no surprise attacks or traps." }
     ]
   },
   {
@@ -12,14 +12,14 @@
     "rules": [
       { "title": "Keep it fair", "desc": "no hacks or exploits." },
       { "title": "Think of the server", "desc": "avoid giant lag machines or packing hundreds of mobs into one spot." },
-      { "title": "Redstone is welcome", "desc": "just keep it tidy and efficient so it doesn’t drag the server down." }
+      { "title": "Redstone is welcome", "desc": "just keep it neat and efficient so it doesn’t drag the server down." }
     ]
   },
   {
     "title": "Building",
     "rules": [
       { "title": "Respect builds", "desc": "don’t build right next to someone without checking first." },
-      { "title": "Spawn is for everyone", "desc": "projects around spawn should look good, keep the area tidy, and not block paths/portals." },
+      { "title": "Spawn is for everyone", "desc": "projects around spawn should look good, stay organized, and not block paths or portals." },
       { "title": "Shops go in town", "desc": "keep your shops in the designated area so players know where to go." }
     ]
   },
@@ -44,7 +44,7 @@
     "rules": [
       { "title": "Be welcoming", "desc": "help out new players and keep the vibe friendly." },
       { "title": "Keep chat fun", "desc": "jokes and banter are fine, but keep it respectful." },
-      { "title": "Speak up", "desc": "if something breaks or feels off, let the admins know." }
+      { "title": "Speak up", "desc": "if you notice mod conflicts or bugs, let the admins know." }
     ]
   }
 ]

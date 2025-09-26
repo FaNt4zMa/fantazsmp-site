@@ -334,7 +334,7 @@ footer hr {
   body.map-page .map iframe { height: 80vh; }
 }
 
-/* Map page responsive */
+/* Rules page responsive */
 @media (max-width: 980px) {
   body.rules-page main { grid-template-columns: 1fr; }
   body.rules-page .card.intro { grid-row: auto; grid-column: span 2;}

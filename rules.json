@@ -1,0 +1,50 @@
+[
+  {
+    "title": "General",
+    "rules": [
+      { "title": "Be cool to each other", "desc": "we’re here to have fun, so keep the chat friendly and respectful." },
+      { "title": "Don’t mess with other people’s stuff", "desc": "builds and chests aren’t yours unless you’ve got permission." },
+      { "title": "PvP is by agreement only", "desc": "no surprise attacks." }
+    ]
+  },
+  {
+    "title": "Gameplay",
+    "rules": [
+      { "title": "Keep it fair", "desc": "no hacks or exploits." },
+      { "title": "Think of the server", "desc": "avoid giant lag machines or packing hundreds of mobs into one spot." },
+      { "title": "Redstone is welcome", "desc": "just keep it tidy and efficient so it doesn’t drag the server down." }
+    ]
+  },
+  {
+    "title": "Building",
+    "rules": [
+      { "title": "Respect builds", "desc": "don’t build right next to someone without checking first." },
+      { "title": "Spawn is for everyone", "desc": "projects around spawn should look good, keep the area tidy, and not block paths/portals." },
+      { "title": "Shops go in town", "desc": "keep your shops in the designated area so players know where to go." }
+    ]
+  },
+  {
+    "title": "Shops & Economy",
+    "rules": [
+      { "title": "Locked chests are for shops only", "desc": "don’t use them for private storage unless you’ve cleared it with the owner." },
+      { "title": "Diamonds are the main currency", "desc": "keep trades fair and simple using them." },
+      { "title": "Make it look good", "desc": "design your shop building so it’s easy to spot what's on sale." }
+    ]
+  },
+  {
+    "title": "Creative Dimension",
+    "rules": [
+      { "title": "For testing only", "desc": "use this world to try out redstone, design builds, or plan projects." },
+      { "title": "No chaos", "desc": "no griefing, boss fights, explosions, or random nonsense." },
+      { "title": "Respect performance", "desc": "avoid huge contraptions or setups that could lag the world." }
+    ]
+  },
+  {
+    "title": "Community",
+    "rules": [
+      { "title": "Be welcoming", "desc": "help out new players and keep the vibe friendly." },
+      { "title": "Keep chat fun", "desc": "jokes and banter are fine, but keep it respectful." },
+      { "title": "Speak up", "desc": "if something breaks or feels off, let the admins know." }
+    ]
+  }
+]

@@ -20,13 +20,28 @@ fetch('rules.json')
       card.className = `card ${slug}`;
 
       card.innerHTML = `
-        <h2>${categoryIcons[category.title] || ''} ${category.title}</h2>
-        <ul>
-          ${category.rules.map(rule =>
-            `<li><strong>${rule.title}</strong> — ${rule.desc}</li>`
-          ).join('')}
-        </ul>
+        <h2 class="collapsible-header">
+          <span class="toggle-icon">▼</span>
+          ${categoryIcons[category.title] || ''} ${category.title}
+        </h2>
+        <div class="rules-content">
+          <ul>
+            ${category.rules.map(rule =>
+              `<li><strong>${rule.title}</strong> — ${rule.desc}</li>`
+            ).join('')}
+          </ul>
+        </div>
       `;
       container.appendChild(card);
+
+      // Add click handler
+      const header = card.querySelector('.collapsible-header');
+      const content = card.querySelector('.rules-content');
+      const icon = card.querySelector('.toggle-icon');
+
+      header.addEventListener('click', () => {
+        content.classList.toggle('collapsed');
+        icon.textContent = content.classList.contains('collapsed') ? '▶' : '▼';
+      });
     });
 });

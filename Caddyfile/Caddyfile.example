@@ -1,0 +1,38 @@
+example.com {
+    # Use DNS provider plugin for automatic certificate management
+	tls {
+		dns <dns_provider> <token>
+	}
+
+    # Webhook endpoint for webhook server by adnanh
+	handle_path /<public_webhook_path> {
+		rewrite * /hooks/<webhook_path>
+		reverse_proxy <internal_ip>:<port>
+	}
+
+    # Reverse proxy for a Crafty's API
+	handle /<public_api_path>/* {
+		reverse_proxy https://<internal_ip>:<port> {
+			header_up Authorization "Bearer <crafty_api_token>"
+			header_up Host {upstream_hostport}
+			transport http {
+                # Needed if using Crafty's self-signed certificate
+				tls_insecure_skip_verify
+			}
+		}
+	}
+
+    # Reverse proxy for Bluemap
+	handle /<public_map_path>/* {
+		uri strip_prefix /<public_map_path>
+		reverse_proxy <internal_ip>:<port>
+	}
+
+    # Import security headers from a common config file
+	import security_headers
+
+    # Serve static site files
+	root * /<webroot_path>
+	file_server
+	try_files {path} {path}.html
+}

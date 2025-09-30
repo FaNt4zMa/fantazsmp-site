@@ -24,7 +24,7 @@ Replace the `<placeholders>` with your own values to adapt it to your setup.
 `bash
 python name_server.py
 `
-API available at `http://127.0.0.1:5000/api/players`
+API available at `http://127.0.0.1:5010/api/players`
 
 ## Notes
 - UUIDs are cached automatically in uuids.json.

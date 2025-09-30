@@ -8,22 +8,22 @@ Python Flask API to get **online player names, UUIDs, and avatar images** from a
 
 ## Setup
 1. Install dependencies:
-`bash
+```bash
 pip install -r requirements.txt
-`
+```
 2. Set your server address in `name_server.py`:
-`python
+```python
 SERVER_ADDR = "localhost:25565"
-`
+```
 3. Set your desired path in `name_server.py`:
-`python
+```python
 @app.route("/<flask_path>/players"
-`
+```
 Replace the `<placeholders>` with your own values to adapt it to your setup.
 4. Run:
-`bash
+```bash
 python name_server.py
-`
+```
 API available at `http://127.0.0.1:5010/api/players`
 
 ## Notes

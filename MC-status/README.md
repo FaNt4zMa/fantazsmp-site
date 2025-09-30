@@ -20,6 +20,7 @@ SERVER_ADDR = "localhost:25565"
 @app.route("/<flask_path>/players"
 ```
 Replace the `<placeholders>` with your own values to adapt it to your setup.
+
 4. Run:
 ```bash
 python name_server.py

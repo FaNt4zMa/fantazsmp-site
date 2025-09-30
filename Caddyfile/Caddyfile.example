@@ -12,7 +12,7 @@ example.com {
 
 	# Reverse proxy for MC-Status players API
 	handle /<flask_path>/players {
-		reverse_proxy 192.168.2.98:5010
+		reverse_proxy <internal_ip>:<port>
 	}
 
 	# Reverse proxy for a Crafty's API

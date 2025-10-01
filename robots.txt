@@ -2,4 +2,3 @@ User-agent: *
 Disallow: /github-webhook
 Disallow: /api/
 Disallow: /bluemap/
-Disallow: /mcstatus/

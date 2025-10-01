@@ -16,12 +16,12 @@ example.com {
 	}
 
 	# Reverse proxy for a Crafty's API
-	handle /<public_api_path>/* {
+	handle /api/* {
 		reverse_proxy https://<internal_ip>:<port> {
 			header_up Authorization "Bearer <crafty_api_token>"
 			header_up Host {upstream_hostport}
+			# Needed if using Crafty's self-signed certificate
 			transport http {
-				# Needed if using Crafty's self-signed certificate
 				tls_insecure_skip_verify
 			}
 		}

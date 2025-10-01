@@ -41,7 +41,7 @@ def players():
         server = JavaServer.lookup(SERVER_ADDR)
         query = server.query()
         players = []
-        for name in query.players.names:
+        for name in query.players.list:
             uuid = get_uuid(name)
             players.append({
                 "name": name,
